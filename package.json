@@ -1,0 +1,31 @@
+{
+  "name": "amigo-finder",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marcuswhitmore/AmigoFinder.git"
+  },
+  "author": "Stefanie Ding",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marcuswhitmore/AmigoFinder/issues"
+  },
+  "homepage": "https://github.com/marcuswhitmore/AmigoFinder#readme",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "mysql": "^2.11.1",
+    "n": "^4.1.0",
+    "nvm": "0.0.4",
+    "path": "^0.12.7"
+  },
+  "engines": {
+    "node": "6.11.1"
+  }
+}
